@@ -2,10 +2,9 @@
 import sys
 
 def main():
-	lines = int(sys.argv[1])
+	lines = int(sys.stdin.readline().replace('\n', ''))
 	
-	input = []
-	
+	input = []	
 	for i in range(0,lines):
 		input.append(sys.stdin.readline().replace('\n', ''))
 		
